@@ -1,0 +1,48 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #041435;
+}
+
+body {
+    background: url("../images/123.jpg") no-repeat center/cover;
+    min-height: 100vh;
+}
+
+.calculator {
+    background: #383839;
+    border-radius: 10px;
+    width: 450px;
+    height: 500px;
+    margin: 40px auto;
+    opacity: .8;
+}
+
+button {
+    border-radius: 5px;
+    background: #aba8a8;
+    text-align: center;
+    font-size: 33px;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background: #ffffff;
+}
+
+.operation {
+    width: 280px;
+    height: 280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+
+.output {
+    font-size: 50px;
+    color: white;
+    margin-left: 10px;
+}
