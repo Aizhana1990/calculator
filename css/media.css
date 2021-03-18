@@ -7,5 +7,18 @@
 }
 
 @media (max-width: 480px) {
-
+.calculator{
+    width: 298px;
+    height: 446px;
+}
+ .operation {
+     width: 240px;
+     height: 250px;
+ }
+ .button{
+     font-size: 27px;
+ }
+ .output{
+     font-size: 36px;
+ }
 }

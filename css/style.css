@@ -10,7 +10,6 @@ body {
     background: url("../images/123.jpg") no-repeat center/cover;
     min-height: 100vh;
 }
-
 .calculator {
     background: #383839;
     border-radius: 10px;
